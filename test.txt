@@ -1,2 +1,3 @@
 git test by BigBing
 modify in new branch.
+this is a conflict test!
