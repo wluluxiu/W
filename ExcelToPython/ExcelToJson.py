@@ -1,8 +1,14 @@
-import xlrd
 import json
 import codecs
 import os
+import subprocess
 
+try:
+    import openpyxl
+except ImportError:
+    subprocess.call(['pip', 'install', 'openpyxl'])
+
+from openpyxl import load_workbook
 
 def ExcelToJson():
     dirpath = os.listdir(os.path.abspath(os.curdir))
@@ -10,38 +16,33 @@ def ExcelToJson():
     tab = "Excel列表 " + '\n'
     num = 0
     for file_path in dirpath:
-        if(".xlsx" in file_path):
-            if get_data(file_path) is not None:
-                book = get_data(file_path)
-                worksheets = book.sheet_names()
-                for sheet in worksheets:
+        if file_path.endswith(".xlsx"):
+            wb = load_workbook(file_path)
+            if wb is not None:
+                # 获取所有工作表的名字
+                worksheets = wb.sheetnames
+                for sheet_name in worksheets:
                     # 记录列表
-                    num = num + 1
-                    tab = tab + ('%s,%s' % (num, sheet))
-                    tab = tab + '\n'
-                    table = book.sheet_by_index(worksheets.index(sheet))
-                    # 单表行列
-                    row_0 = table.row(0)
-                    nrows = table.nrows
-                    ncols = table.ncols
-                    # 记录Json
+                    num += 1
+                    tab += f'{num},{sheet_name}\n'
+                    table = wb[sheet_name]
+                    # 初始化记录Json的部分
                     result["num"] = num
-                    result[str(sheet)] = []
-                    for i in range(nrows):
-                        if i == 0:
-                            continue
+                    result[str(sheet_name)] = []
+                    # 获取第一行标题并跳过
+                    row_0 = [cell.value for cell in next(table.rows)]
+                    # 遍历每一行数据
+                    for row in table.iter_rows(min_row=2):  # 从第二行开始遍历
                         tmp = {}
-                        for j in range(ncols):
-                            title_de = str(row_0[j])
-                            title_cn = title_de.split("'")[1]
-                            tmp[title_cn] = table.row_values(i)[j]
-                        result[str(sheet)].append(tmp)
-    json_data = json.dumps(result, indent=4, sort_keys=True)
+                        for idx, cell in enumerate(row):
+                            title_cn = row_0[idx]
+                            tmp[title_cn] = cell.value
+                        result[str(sheet_name)].append(tmp)
+    json_data = json.dumps(result, indent=4, ensure_ascii=False)
     saveFile(os.getcwd(), "Excel列表", tab, ".txt")
     saveFile(os.getcwd(), "JsonData", json_data, ".json")
     print(json_data)
     return json_data
-
 
 # 获取excel数据源
 def get_data(file_path):
