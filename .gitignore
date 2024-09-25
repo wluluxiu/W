@@ -1,6 +1,3 @@
-Unity Project/Library/
-Unity Project/Temp/
-Unity Project/obj/
 ExcelToPython/A.xlsx
 ExcelToPython/Excel列表.txt
 ExcelToPython/JsonData.json
@@ -10,3 +7,4 @@ ExcelToPython/C.xlsx
 /UnityProject/Logs
 /UnityProject/Temp
 *.sln
+/UnityProject/HybridCLRData
