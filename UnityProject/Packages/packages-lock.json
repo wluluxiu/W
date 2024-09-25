@@ -7,12 +7,6 @@
       "dependencies": {},
       "hash": "59bc259cc88898425620535d282192503ba99399"
     },
-    "com.jj.3rd.sharpziplib": {
-      "version": "file:com.jj.3rd.sharpziplib",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.unity.burst": {
       "version": "file:D:/JJ/Package/com.unity.burst@1.8.13",
       "depth": 0,
@@ -131,12 +125,6 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
-    },
-    "com.wluluxiu.tatools": {
-      "version": "file:com.jj.tatools@1.0.0",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
