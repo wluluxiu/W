@@ -5,3 +5,4 @@ ExcelToPython/A.xlsx
 ExcelToPython/Excel列表.txt
 ExcelToPython/JsonData.json
 ExcelToPython/C.xlsx
+*.csproj

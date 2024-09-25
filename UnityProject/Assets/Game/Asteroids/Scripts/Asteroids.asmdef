@@ -1,0 +1,16 @@
+{
+    "name": "Unity.TestTools.CodeCoverage.Sample.Asteroids",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cf26089f959a9494d928bdca4507d3ad"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
