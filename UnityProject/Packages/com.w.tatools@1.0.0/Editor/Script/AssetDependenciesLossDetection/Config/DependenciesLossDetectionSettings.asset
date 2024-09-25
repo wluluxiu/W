@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9298d89f4b071d408b3628b65ef3a88, type: 3}
+  m_Name: DependenciesLossDetectionSettings
+  m_EditorClassIdentifier: 
+  m_ReportOutputRelativeFolder: ./JJTATools/ADLD
+  m_SearchFolders:
+  - Assets
+  m_IgnoreFolders:
+  - Editor
+  m_IgnoreTypeNames:
+  - UnityEngine.Texture2D
+  - UnityEngine.Cubemap
+  - UnityEngine.RenderTexture
+  - UnityEngine.AnimationClip
+  - UnityEditor.DefaultAsset
+  - UnityEngine.TextAsset
+  - UnityEngine.Mesh
+  - TMPro.TMP_StyleSheet
+  - DG.Tweening.Core.DOTweenSettings
+  - UnityEditor.ShaderInclude
+  - UnityEngine.AudioClip
+  - UnityEngine.Video.VideoClip
+  - UnityEngine.AssetGraph.AssetReferenceDatabase
+  - UnityEngine.AssetGraph.BatchBuildConfig
+  - UnityEngine.AssetGraph.DataModel.Version2.ConfigGraph
+  - AssetBridgeScript
+  - jj.Core.Runtime.MockConfig
+  m_IgnoreTypeAssemblyNames:
+  - UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - DOTween, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Unity.AssetGraph.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Unity.AssetGraph.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Unity.AssetGraph.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - jj.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - jj.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_BuiltinAssetPaths:
+  - Library/unity default resources
+  - Resources/unity_builtin_extra

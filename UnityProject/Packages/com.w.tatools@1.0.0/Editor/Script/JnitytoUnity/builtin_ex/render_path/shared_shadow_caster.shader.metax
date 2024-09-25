@@ -1,0 +1,114 @@
+{
+    "_uuid": "00000000-0000-0000-0000-75306483c095",
+    "_version": 1,
+    "_dir": false,
+    "ShaderImporter": {
+        "serializedVersion": 2,
+        "_name": "shared_shadow_caster",
+        "_localIdToName": [],
+        "_bundle": "00000000-0000-0000-1000-000000000000",
+        "_keywordsInfo": {
+            "serializedVersion": 2,
+            "customKeywords": [],
+            "builtinKeywords": [
+                {
+                    "key": "",
+                    "type": 2
+                },
+                {
+                    "key": "INSTANCING_ON",
+                    "type": 2
+                },
+                {
+                    "key": "SHADOWS_CUBE",
+                    "type": 2
+                },
+                {
+                    "key": "SHADOWS_DEPTH",
+                    "type": 2
+                },
+                {
+                    "key": "SKINNING",
+                    "type": 0
+                },
+                {
+                    "key": "SKINNING_BAKED",
+                    "type": 0
+                }
+            ],
+            "supportInstancing": true,
+            "useLightShadow": true,
+            "shaderFeatureKeywords": [],
+            "shaderFeatureVertSets": [
+                [
+                    []
+                ]
+            ],
+            "shaderFeatureFragSets": [
+                [
+                    []
+                ]
+            ],
+            "targetMCVertKeywords": [
+                [
+                    [
+                        "SHADOWS_DEPTH",
+                        "SHADOWS_DEPTH SKINNING",
+                        "SHADOWS_DEPTH SKINNING_BAKED",
+                        "SHADOWS_DEPTH SKINNING_BAKED SKINNING",
+                        "SHADOWS_DEPTH INSTANCING_ON",
+                        "SHADOWS_DEPTH INSTANCING_ON SKINNING",
+                        "SHADOWS_DEPTH INSTANCING_ON SKINNING_BAKED",
+                        "SHADOWS_DEPTH INSTANCING_ON SKINNING_BAKED SKINNING",
+                        "SHADOWS_CUBE",
+                        "SHADOWS_CUBE SKINNING",
+                        "SHADOWS_CUBE SKINNING_BAKED",
+                        "SHADOWS_CUBE SKINNING_BAKED SKINNING",
+                        "SHADOWS_CUBE INSTANCING_ON",
+                        "SHADOWS_CUBE INSTANCING_ON SKINNING",
+                        "SHADOWS_CUBE INSTANCING_ON SKINNING_BAKED",
+                        "SHADOWS_CUBE INSTANCING_ON SKINNING_BAKED SKINNING"
+                    ]
+                ]
+            ],
+            "targetSFVertKeywords": [
+                [
+                    []
+                ]
+            ],
+            "targetMCFragKeywords": [
+                [
+                    [
+                        "SHADOWS_DEPTH",
+                        "SHADOWS_DEPTH INSTANCING_ON",
+                        "SHADOWS_CUBE",
+                        "SHADOWS_CUBE INSTANCING_ON"
+                    ]
+                ]
+            ],
+            "targetSFFragKeywords": [
+                [
+                    []
+                ]
+            ],
+            "acptSFGroup": [
+                [
+                    []
+                ]
+            ]
+        },
+        "_techVerInfo": {
+            "versions": [
+                {
+                    "p0": 0,
+                    "p1": 0
+                }
+            ]
+        },
+        "_variantsCnts": [
+            [
+                16
+            ]
+        ]
+    }
+}

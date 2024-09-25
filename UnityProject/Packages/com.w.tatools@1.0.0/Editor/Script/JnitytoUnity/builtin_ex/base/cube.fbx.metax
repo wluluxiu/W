@@ -1,0 +1,69 @@
+{
+    "_uuid": "00000000-0000-0000-0000-753017a32ddf",
+    "_version": 1,
+    "_dir": false,
+    "FbxImporter": {
+        "serializedVersion": 3,
+        "_name": "Cube",
+        "_localIdToName": [
+            {
+                "p0": 2100000,
+                "p1": "Cube"
+            },
+            {
+                "p0": 13200000,
+                "p1": "Cube"
+            }
+        ],
+        "_bundle": "00000000-0000-0000-1000-000000000000",
+        "ms_importModel": true,
+        "ms_scaleFactor": 1.0,
+        "ms_meshCompression": 0,
+        "ms_readWriteEnabled": false,
+        "ms_optimizeMesh": true,
+        "ms_importBlendShapes": true,
+        "ms_generateColliders": false,
+        "ms_indexFormat": 0,
+        "ms_weldVertices": true,
+        "ms_importVisibility": true,
+        "ms_preserveHierarchy": false,
+        "ms_swapUVs": false,
+        "ms_hasNormals": true,
+        "ms_hasTangents": true,
+        "ms_reorderMeshByY": false,
+        "ms_normals": 0,
+        "ms_calculateMode": 3,
+        "ms_smoothingAngle": 60,
+        "ms_tangents": 1,
+        "ms_generateLightmapUVs": true,
+        "ms_sRGBVertexColor": false,
+        "ms_lightmapResolutionGenMethod": 0,
+        "ms_lightmapResolution": 64,
+        "ms_minLightmapResolution": 64,
+        "ms_hasUV0": true,
+        "rs_animationType": 1,
+        "rs_avatarDefinition": 0,
+        "rs_rootMotionBoneName": "",
+        "rs_avatarSource": "",
+        "rs_autoSplitBones": false,
+        "fbxImporterAS": {
+            "serializedVersion": 2,
+            "importAnimation": true,
+            "legacyAnimation": true,
+            "resampleCurves": true,
+            "animCompression": 1,
+            "rotationError": 0.5,
+            "positionError": 0.5,
+            "scaleError": 0.5,
+            "clips": []
+        },
+        "_mirrorBones": [],
+        "_avatarRig": {
+            "serializedVersion": 2,
+            "localId": 0,
+            "uuid": "00000000-0000-0000-0000-000000000000"
+        },
+        "_boneMappingTable": [],
+        "_retargetingMode": []
+    }
+}

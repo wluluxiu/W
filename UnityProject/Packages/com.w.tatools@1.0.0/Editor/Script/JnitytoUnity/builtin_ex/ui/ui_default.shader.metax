@@ -1,0 +1,100 @@
+{
+    "_uuid": "00000000-0000-0000-0000-7530e6ca510b",
+    "_version": 1,
+    "_dir": false,
+    "ShaderImporter": {
+        "serializedVersion": 2,
+        "_name": "UI-Default",
+        "_localIdToName": [],
+        "_bundle": "00000000-0000-0000-1000-000000000000",
+        "_group": "00000000-0000-0000-0000-000000000000",
+        "_keywordsInfo": {
+            "serializedVersion": 2,
+            "customKeywords": [
+                {
+                    "key": "UI_ALPHACLIP",
+                    "type": 2
+                },
+                {
+                    "key": "UI_CLIP_RECT",
+                    "type": 2
+                }
+            ],
+            "builtinKeywords": [
+                {
+                    "key": "",
+                    "type": 0
+                },
+                {
+                    "key": "SKINNING",
+                    "type": 0
+                }
+            ],
+            "supportInstancing": false,
+            "useLightShadow": false,
+            "shaderFeatureKeywords": [],
+            "shaderFeatureVertSets": [
+                [
+                    []
+                ]
+            ],
+            "shaderFeatureFragSets": [
+                [
+                    []
+                ]
+            ],
+            "targetMCVertKeywords": [
+                [
+                    [
+                        "",
+                        "SKINNING",
+                        "UI_ALPHACLIP",
+                        "UI_ALPHACLIP SKINNING",
+                        "UI_CLIP_RECT",
+                        "UI_CLIP_RECT SKINNING",
+                        "UI_CLIP_RECT UI_ALPHACLIP",
+                        "UI_CLIP_RECT UI_ALPHACLIP SKINNING"
+                    ]
+                ]
+            ],
+            "targetSFVertKeywords": [
+                [
+                    []
+                ]
+            ],
+            "targetMCFragKeywords": [
+                [
+                    [
+                        "",
+                        "UI_ALPHACLIP",
+                        "UI_CLIP_RECT",
+                        "UI_CLIP_RECT UI_ALPHACLIP"
+                    ]
+                ]
+            ],
+            "targetSFFragKeywords": [
+                [
+                    []
+                ]
+            ],
+            "acptSFGroup": [
+                [
+                    []
+                ]
+            ]
+        },
+        "_techVerInfo": {
+            "versions": [
+                {
+                    "p0": 0,
+                    "p1": 0
+                }
+            ]
+        },
+        "_variantsCnts": [
+            [
+                8
+            ]
+        ]
+    }
+}

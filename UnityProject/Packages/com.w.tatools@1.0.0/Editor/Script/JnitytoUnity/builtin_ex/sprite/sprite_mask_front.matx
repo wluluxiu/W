@@ -1,0 +1,107 @@
+[
+    {
+        "localId": 13100000,
+        "typeId": 131,
+        "Material": {
+            "serializedVersion": 5,
+            "_name": "sprite_mask_front",
+            "_savedMatOPtrData": {
+                "_version": "1.0",
+                "_name": "",
+                "_properties": {
+                    "_valueFloats": [
+                        {
+                            "_name": "_Cutoff",
+                            "_displayName": "Mask alpha cutoff",
+                            "_value": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    ],
+                    "_valueVecFloats": [],
+                    "_valueTexs": [
+                        {
+                            "_name": "_uMainTex",
+                            "_displayName": "Main Texture",
+                            "_value": {
+                                "uuid": "00000000-0000-0000-0000-7530a59ca7d4",
+                                "localId": 13600000
+                            },
+                            "_legacyValue": {
+                                "_texenvs": []
+                            }
+                        }
+                    ],
+                    "_semanticValues": [],
+                    "_valueNames": [],
+                    "_valuePropAttributes": []
+                }
+            },
+            "_matOPtrData": {
+                "_version": "1.0",
+                "_name": "",
+                "_properties": {
+                    "_valueFloats": [
+                        {
+                            "_name": "_Cutoff",
+                            "_displayName": "Mask alpha cutoff",
+                            "_value": 0.0,
+                            "_min": 0.0,
+                            "_max": 0.0
+                        }
+                    ],
+                    "_valueVecFloats": [],
+                    "_valueTexs": [
+                        {
+                            "_name": "_uMainTex",
+                            "_displayName": "Main Texture",
+                            "_value": {
+                                "uuid": "00000000-0000-0000-0000-7530a59ca7d4",
+                                "localId": 13600000
+                            },
+                            "_legacyValue": {
+                                "_texenvs": []
+                            }
+                        }
+                    ],
+                    "_semanticValues": [],
+                    "_valueNames": [
+                        "_uMainTex",
+                        "_Cutoff"
+                    ],
+                    "_valuePropAttributes": [
+                        [],
+                        []
+                    ]
+                }
+            },
+            "_effectOPtr": {
+                "uuid": "00000000-0000-0000-0000-7530c0722b90",
+                "localId": 13000000
+            },
+            "_overrideTags": [
+                {
+                    "p0": 20,
+                    "p1": 3000.0
+                },
+                {
+                    "p0": 25,
+                    "p1": 0.0
+                },
+                {
+                    "p0": 41,
+                    "p1": 0.0
+                },
+                {
+                    "p0": 42,
+                    "p1": 0.0
+                }
+            ],
+            "_renderQueue": 3000.0,
+            "_enableGPUInstancing": false,
+            "_shaderKeywords": [],
+            "_filters": [],
+            "_giFlags": 4
+        }
+    }
+]

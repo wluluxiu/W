@@ -1,0 +1,198 @@
+{
+    "_uuid": "00000000-0000-0000-0000-753010bc5ad0",
+    "_version": 1,
+    "_dir": false,
+    "ShaderImporter": {
+        "serializedVersion": 2,
+        "_name": "depth_of_field",
+        "_localIdToName": [],
+        "_bundle": "00000000-0000-0000-1000-000000000000",
+        "_keywordsInfo": {
+            "serializedVersion": 2,
+            "customKeywords": [
+                {
+                    "key": "KERNEL_LARGE",
+                    "type": 2
+                },
+                {
+                    "key": "KERNEL_MEDIUM",
+                    "type": 2
+                },
+                {
+                    "key": "KERNEL_SMALL",
+                    "type": 2
+                },
+                {
+                    "key": "KERNEL_VERYLARGE",
+                    "type": 2
+                }
+            ],
+            "builtinKeywords": [
+                {
+                    "key": "",
+                    "type": 0
+                },
+                {
+                    "key": "SKINNING",
+                    "type": 0
+                }
+            ],
+            "supportInstancing": false,
+            "useLightShadow": false,
+            "shaderFeatureKeywords": [],
+            "shaderFeatureVertSets": [
+                [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                ]
+            ],
+            "shaderFeatureFragSets": [
+                [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                ]
+            ],
+            "targetMCVertKeywords": [
+                [
+                    [
+                        "",
+                        "SKINNING"
+                    ],
+                    [
+                        "",
+                        "SKINNING"
+                    ],
+                    [
+                        "",
+                        "SKINNING"
+                    ],
+                    [
+                        "",
+                        "SKINNING",
+                        "KERNEL_VERYLARGE",
+                        "KERNEL_VERYLARGE SKINNING",
+                        "KERNEL_LARGE",
+                        "KERNEL_LARGE SKINNING",
+                        "KERNEL_LARGE KERNEL_VERYLARGE",
+                        "KERNEL_LARGE KERNEL_VERYLARGE SKINNING",
+                        "KERNEL_MEDIUM",
+                        "KERNEL_MEDIUM SKINNING",
+                        "KERNEL_MEDIUM KERNEL_VERYLARGE",
+                        "KERNEL_MEDIUM KERNEL_VERYLARGE SKINNING",
+                        "KERNEL_MEDIUM KERNEL_LARGE",
+                        "KERNEL_MEDIUM KERNEL_LARGE SKINNING",
+                        "KERNEL_MEDIUM KERNEL_LARGE KERNEL_VERYLARGE",
+                        "KERNEL_MEDIUM KERNEL_LARGE KERNEL_VERYLARGE SKINNING",
+                        "KERNEL_SMALL",
+                        "KERNEL_SMALL SKINNING",
+                        "KERNEL_SMALL KERNEL_VERYLARGE",
+                        "KERNEL_SMALL KERNEL_VERYLARGE SKINNING",
+                        "KERNEL_SMALL KERNEL_LARGE",
+                        "KERNEL_SMALL KERNEL_LARGE SKINNING",
+                        "KERNEL_SMALL KERNEL_LARGE KERNEL_VERYLARGE",
+                        "KERNEL_SMALL KERNEL_LARGE KERNEL_VERYLARGE SKINNING",
+                        "KERNEL_SMALL KERNEL_MEDIUM",
+                        "KERNEL_SMALL KERNEL_MEDIUM SKINNING",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_VERYLARGE",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_VERYLARGE SKINNING",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_LARGE",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_LARGE SKINNING",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_LARGE KERNEL_VERYLARGE",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_LARGE KERNEL_VERYLARGE SKINNING"
+                    ],
+                    [
+                        "",
+                        "SKINNING"
+                    ],
+                    [
+                        "",
+                        "SKINNING"
+                    ]
+                ]
+            ],
+            "targetSFVertKeywords": [
+                [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                ]
+            ],
+            "targetMCFragKeywords": [
+                [
+                    [],
+                    [],
+                    [],
+                    [
+                        "",
+                        "KERNEL_VERYLARGE",
+                        "KERNEL_LARGE",
+                        "KERNEL_LARGE KERNEL_VERYLARGE",
+                        "KERNEL_MEDIUM",
+                        "KERNEL_MEDIUM KERNEL_VERYLARGE",
+                        "KERNEL_MEDIUM KERNEL_LARGE",
+                        "KERNEL_MEDIUM KERNEL_LARGE KERNEL_VERYLARGE",
+                        "KERNEL_SMALL",
+                        "KERNEL_SMALL KERNEL_VERYLARGE",
+                        "KERNEL_SMALL KERNEL_LARGE",
+                        "KERNEL_SMALL KERNEL_LARGE KERNEL_VERYLARGE",
+                        "KERNEL_SMALL KERNEL_MEDIUM",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_VERYLARGE",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_LARGE",
+                        "KERNEL_SMALL KERNEL_MEDIUM KERNEL_LARGE KERNEL_VERYLARGE"
+                    ],
+                    [],
+                    []
+                ]
+            ],
+            "targetSFFragKeywords": [
+                [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                ]
+            ],
+            "acptSFGroup": [
+                [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                ]
+            ]
+        },
+        "_techVerInfo": {
+            "versions": [
+                {
+                    "p0": 0,
+                    "p1": 0
+                }
+            ]
+        },
+        "_variantsCnts": [
+            [
+                2,
+                2,
+                2,
+                32,
+                2,
+                2
+            ]
+        ]
+    }
+}

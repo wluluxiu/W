@@ -1,0 +1,15 @@
+{
+    "_uuid": "00000000-0000-0000-0000-75304a7769c2",
+    "_version": 1,
+    "_dir": false,
+    "TextScriptImporter": {
+        "_name": "sampling",
+        "_localIdToName": [
+            {
+                "p0": 3800000,
+                "p1": "sampling"
+            }
+        ],
+        "_bundle": "00000000-0000-0000-1000-000000000000"
+    }
+}

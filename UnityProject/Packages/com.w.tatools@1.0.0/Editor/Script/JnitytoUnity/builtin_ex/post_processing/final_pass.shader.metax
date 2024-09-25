@@ -1,0 +1,122 @@
+{
+    "_uuid": "00000000-0000-0000-0000-7530ff700613",
+    "_version": 1,
+    "_dir": false,
+    "ShaderImporter": {
+        "serializedVersion": 2,
+        "_name": "final_pass",
+        "_localIdToName": [],
+        "_bundle": "00000000-0000-0000-1000-000000000000",
+        "_keywordsInfo": {
+            "serializedVersion": 2,
+            "customKeywords": [
+                {
+                    "key": "FXAA",
+                    "type": 2
+                },
+                {
+                    "key": "FXAA_KEEP_ALPHA",
+                    "type": 2
+                },
+                {
+                    "key": "FXAA_LOW",
+                    "type": 2
+                },
+                {
+                    "key": "FXAA_NO_ALPHA",
+                    "type": 2
+                }
+            ],
+            "builtinKeywords": [
+                {
+                    "key": "",
+                    "type": 0
+                },
+                {
+                    "key": "SKINNING",
+                    "type": 0
+                }
+            ],
+            "supportInstancing": false,
+            "useLightShadow": false,
+            "shaderFeatureKeywords": [],
+            "shaderFeatureVertSets": [
+                [
+                    []
+                ]
+            ],
+            "shaderFeatureFragSets": [
+                [
+                    []
+                ]
+            ],
+            "targetMCVertKeywords": [
+                [
+                    [
+                        "",
+                        "SKINNING",
+                        "FXAA_KEEP_ALPHA",
+                        "FXAA_KEEP_ALPHA SKINNING",
+                        "FXAA_NO_ALPHA",
+                        "FXAA_NO_ALPHA SKINNING",
+                        "FXAA",
+                        "FXAA SKINNING",
+                        "FXAA FXAA_KEEP_ALPHA",
+                        "FXAA FXAA_KEEP_ALPHA SKINNING",
+                        "FXAA FXAA_NO_ALPHA",
+                        "FXAA FXAA_NO_ALPHA SKINNING",
+                        "FXAA_LOW",
+                        "FXAA_LOW SKINNING",
+                        "FXAA_LOW FXAA_KEEP_ALPHA",
+                        "FXAA_LOW FXAA_KEEP_ALPHA SKINNING",
+                        "FXAA_LOW FXAA_NO_ALPHA",
+                        "FXAA_LOW FXAA_NO_ALPHA SKINNING"
+                    ]
+                ]
+            ],
+            "targetSFVertKeywords": [
+                [
+                    []
+                ]
+            ],
+            "targetMCFragKeywords": [
+                [
+                    [
+                        "",
+                        "FXAA_KEEP_ALPHA",
+                        "FXAA_NO_ALPHA",
+                        "FXAA",
+                        "FXAA FXAA_KEEP_ALPHA",
+                        "FXAA FXAA_NO_ALPHA",
+                        "FXAA_LOW",
+                        "FXAA_LOW FXAA_KEEP_ALPHA",
+                        "FXAA_LOW FXAA_NO_ALPHA"
+                    ]
+                ]
+            ],
+            "targetSFFragKeywords": [
+                [
+                    []
+                ]
+            ],
+            "acptSFGroup": [
+                [
+                    []
+                ]
+            ]
+        },
+        "_techVerInfo": {
+            "versions": [
+                {
+                    "p0": 0,
+                    "p1": 0
+                }
+            ]
+        },
+        "_variantsCnts": [
+            [
+                18
+            ]
+        ]
+    }
+}

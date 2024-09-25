@@ -1,0 +1,74 @@
+Shader "2d/gaussian_blur" {
+    Properties {
+        _uMainTex ("Default Texture", 2D) = "" {}
+        _uResolution ("Resolution", Vector) = (960, 640, 0, 0)
+        _uDirection ("Direction", Vector) = (1, 0, 0, 0)
+    }
+
+    SubShader {
+        Tags { "Queue"="Geometry" }
+
+        Pass {
+            
+            Blend One OneMinusSrcAlpha
+            Cull Off
+            ZTest Always
+            ZWrite Off
+
+            CGPROGRAM
+
+            uniform sampler2D _uMainTex;
+            uniform float4 _uResolution;
+            uniform float4 _uDirection;
+
+            struct a2v {
+                float4 pos : POSITION;
+                float2 tex : TEXCOORD0;
+            };
+
+            struct v2f {
+                float4 pos : SV_POSITION;
+                float2 tex : TEXCOORD0;
+                float4 blurCoord1 : TEXCOORD1;
+                float4 blurCoord2 : TEXCOORD2;
+                float4 blurCoord3 : TEXCOORD3;
+                float4 blurCoord4 : TEXCOORD4;
+            };
+
+            v2f vert(a2v i) {
+                v2f o;
+                o.pos = mul(uMVPMatrix, i.pos);
+                o.tex = i.tex;
+                float2 singleStepOffset = _uDirection.xy / _uResolution.xy;
+                o.blurCoord1.xy = i.tex.xy + singleStepOffset * 1.5;
+                o.blurCoord1.zw = i.tex.xy - singleStepOffset * 1.5;
+                o.blurCoord2.xy = i.tex.xy + singleStepOffset * 3.0;
+                o.blurCoord2.zw = i.tex.xy - singleStepOffset * 3.0;
+                o.blurCoord3.xy = i.tex.xy + singleStepOffset * 5.0;
+                o.blurCoord3.zw = i.tex.xy - singleStepOffset * 5.0;
+                o.blurCoord4.xy = i.tex.xy + singleStepOffset * 7.0;
+                o.blurCoord4.zw = i.tex.xy - singleStepOffset * 7.0;
+                return o;
+            }
+
+            float4 frag(v2f i) : SV_TARGET {
+                float4 sum = float4(0.0,0.0,0.0,0.0);
+                sum += tex2D(_uMainTex, i.tex) * 0.06;
+                sum += tex2D(_uMainTex, i.blurCoord1.xy) * 0.16;
+                sum += tex2D(_uMainTex, i.blurCoord1.zw) * 0.16;
+                sum += tex2D(_uMainTex, i.blurCoord2.xy) * 0.13;
+                sum += tex2D(_uMainTex, i.blurCoord2.zw) * 0.13;
+                sum += tex2D(_uMainTex, i.blurCoord3.xy) * 0.11;
+                sum += tex2D(_uMainTex, i.blurCoord3.zw) * 0.11;
+                sum += tex2D(_uMainTex, i.blurCoord4.xy) * 0.07;
+                sum += tex2D(_uMainTex, i.blurCoord4.zw) * 0.07;
+
+                sum.a = 1.0;
+
+                return sum;
+            }
+
+            ENDCG
+        }
+    }
+}

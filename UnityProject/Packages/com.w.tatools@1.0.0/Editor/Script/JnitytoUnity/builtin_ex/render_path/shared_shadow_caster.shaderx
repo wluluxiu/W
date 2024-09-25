@@ -1,0 +1,25 @@
+Shader "hidden/shared_shadow_caster" {
+	Properties {
+	}
+	SubShader {
+		Name "ShadowCaster"	
+		ZWrite On ZTest LEqual 
+		Cull Off
+
+		Pass {
+			Tags { "LightMode" = "ShadowCaster" }
+
+			CGPROGRAM
+			#include "StandardShadow.cginc"
+			
+			#pragma multi_compile_shadowcaster
+            #pragma multi_compile_instancing
+            #pragma multi_compile_vert_skinning_baked
+
+			#pragma vertex vertShadowCaster
+			#pragma fragment fragShadowCaster
+
+			ENDCG
+		}
+	}
+}

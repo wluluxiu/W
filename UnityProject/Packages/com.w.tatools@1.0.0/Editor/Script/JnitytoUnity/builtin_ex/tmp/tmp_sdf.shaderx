@@ -1,0 +1,309 @@
+Shader "UI/TMP-Distance Field" {
+
+Properties {
+	// Face
+	_uFaceTex			  ("Face Texture", 2D) = "white" {}
+	_uFaceUVSpeedX		  ("Face UV Speed X", Range(-5, 5)) = 0.0
+	_uFaceUVSpeedY	      ("Face UV Speed Y", Range(-5, 5)) = 0.0
+	[HDR]_uFaceColor	  ("Face Color", Color) = (1,1,1,1)
+	_uFaceDilate		  ("Face Dilate", Range(-1,1)) = 0
+
+	// Outline
+	[HDR]_uOutlineColor	  ("Outline Color", Color) = (0,0,0,1)
+	_uOutlineTex	      ("Outline Texture", 2D) = "white" {}
+	_uOutlineUVSpeedX	  ("Outline UV Speed X", Range(-5, 5)) = 0.0
+	_uOutlineUVSpeedY	  ("Outline UV Speed Y", Range(-5, 5)) = 0.0
+	_uOutlineWidth		  ("Outline Thickness", Range(0, 1)) = 0
+	_uOutlineSoftness	  ("Outline Softness", Range(0, 1)) = 0
+
+	// Lighting: Bevel
+	_uBevel				  ("Bevel", Range(0, 1)) = 0.5
+	_uBevelOffset		  ("Bevel Offset", Range(-0.5,0.5)) = 0
+	_uBevelWidth          ("Bevel Width", Range(-0.5,0.5)) = 0
+	_uBevelClamp          ("Bevel Clamp", Range(0,1)) = 0
+	_uBevelRoundness      ("Bevel Roundness", Range(0,1)) = 0
+
+	// Lighting: Local Lighting
+	_uLightAngle		  ("Light Angle", Range(0.0, 6.2831853)) = 3.1416
+	[HDR]_uSpecularColor  ("Specular", Color) = (1,1,1,1)
+	_uSpecularPower		  ("Specular", Range(0,4)) = 2.0
+	_uReflectivity		  ("Reflectivity", Range(5.0,15.0)) = 10
+	_uDiffuse			  ("Diffuse", Range(0,1)) = 0.5
+	_uAmbient			  ("Ambient", Range(0,1)) = 0.5
+	 
+	// Lighting: Bump Map
+	_uBumpMap 			  ("Normal map", 2D) = "bump" {}
+	_uBumpOutline		  ("Bump Outline", Range(0,1)) = 0
+	_uBumpFace			  ("Bump Face", Range(0,1)) = 0
+	 
+	// Lighting: Environment Map
+	_uReflectFaceColor	  ("Reflection Color", Color) = (0,0,0,1)
+	_uReflectOutlineColor ("Reflection Color", Color) = (0,0,0,1)
+	_uCube 				  ("Reflection Cubemap", Cube) = "black" { /* TexGen CubeReflect */ }
+	_uEnvMatrixRotation	  ("Texture Rotation", Vector) = (0, 0, 0, 0)
+
+	// Underlay
+	[HDR]_uUnderlayColor  ("Border Color", Color) = (0,0,0, 0.5)
+	_uUnderlayOffsetX	  ("Border OffsetX", Range(-1,1)) = 0
+	_uUnderlayOffsetY	  ("Border OffsetY", Range(-1,1)) = 0
+	_uUnderlayDilate	  ("Border Dilate", Range(-1,1)) = 0
+	_uUnderlaySoftness	  ("Border Softness", Range(0,1)) = 0
+
+	// Glow
+	[HDR]_uGlowColor	  ("Color", Color) = (0, 1, 0, 0.5)
+	_uGlowOffset		  ("Offset", Range(-1,1)) = 0
+	_uGlowInner			  ("Inner", Range(0,1)) = 0.05
+	_uGlowOuter			  ("Outer", Range(0,1)) = 0.05
+	_uGlowPower			  ("Falloff", Range(0,1)) = 0.75
+
+	_uWeightNormal		  ("Weight Normal", float) = 0
+	_uWeightBold		  ("Weight Bold", float) = 0.5
+
+	_uShaderFlags		  ("Flags", float) = 1
+	_uScaleRatioA		  ("Scale RatioA", float) = 1
+	_uScaleRatioB		  ("Scale RatioB", float) = 1
+	_uScaleRatioC		  ("Scale RatioC", float) = 1
+
+	_uMainTex			  ("Font Atlas", 2D) = "white" {}
+	_uTextureWidth		  ("Texture Width", float) = 512
+	_uTextureHeight		  ("Texture Height", float) = 512
+	_uGradientScale		  ("Gradient Scale", float) = 10.0
+	_uScaleX			  ("Scale X", float) = 1.0
+	_uScaleY			  ("Scale Y", float) = 1.0
+	_uPerspectiveFilter	  ("Perspective Correction", Range(0,1)) = 0.875
+	_uSharpness			  ("Sharpness", Range(-1,1)) = 0
+
+	_uVertexOffsetX		  ("Vertex OffsetX", Float) = 0
+	_uVertexOffsetY		  ("Vertex OffsetY", Float) = 0
+
+	_uMaskCoord			  ("Mask Coordinates", Vector) = (0, 0, 32767, 32767)
+
+	_uStencilComp		  ("Stencil Comparison", Float) = 7
+	_uStencil			  ("Stencil ID", Float) = 0
+	_uStencilOp			  ("Stencil Operation", Float) = 0
+	_uStencilWriteMask	  ("Stencil Write Mask", Float) = 255
+	_uStencilReadMask	  ("Stencil Read Mask", Float) = 255
+
+	_uCullMode			  ("Cull Mode", Float) = 0
+	_uColorMask			  ("Color Mask", Float) = 15
+}
+
+SubShader {
+	Tags
+	{
+		"Queue"="Transparent"
+	}
+
+	Pass {
+		Stencil
+		{
+			Ref [_uStencil]
+			Comp [_uStencilComp]
+			Pass [_uStencilOp]
+			ReadMask [_uStencilReadMask]
+			WriteMask [_uStencilWriteMask]
+		}
+
+		Cull [_uCullMode]
+		ZWrite Off
+		ZTest [gGUIZTestMode]
+		Blend One OneMinusSrcAlpha
+		ColorMask [_uColorMask]
+
+		CGPROGRAM
+		#pragma target 3.0
+		#pragma vertex VertShader
+		#pragma fragment PixShader		
+		
+		#pragma shader_feature_local __ BEVEL_ON
+		#pragma shader_feature_local __ UNDERLAY_ON UNDERLAY_INNER
+		#pragma shader_feature_local __ GLOW_ON
+		#pragma multi_compile_local __ UI_CLIP_RECT
+        #pragma multi_compile_local __ UI_ALPHACLIP
+
+		#include "CG.cginc"
+		#include "UI.cginc"
+		#include "TMPro_Properties.cginc"
+		#include "TMPro.cginc"
+
+		struct vertex_t {
+			float4	position		: POSITION;
+			float3	normal			: NORMAL;
+			fixed4	color			: COLOR;
+			float2	texcoord0		: TEXCOORD0;
+			float2	texcoord1		: TEXCOORD1;
+		};
+
+		struct pixel_t {
+			float4	position		: SV_POSITION;
+			fixed4	color			: COLOR;
+			float2	atlas			: TEXCOORD0;		// Atlas
+			float4	param			: TEXCOORD1;		// alphaClip, scale, bias, weight
+			float4	mask			: TEXCOORD2;		// Position in object space(xy), pixel Size(zw)
+			float3	viewDir			: TEXCOORD3;
+
+		#if (UNDERLAY_ON || UNDERLAY_INNER)
+			float4	texcoord2		: TEXCOORD4;		// u,v, scale, bias
+			fixed4	underlayColor	: COLOR1;
+		#endif
+			float4 textures			: TEXCOORD5;
+		};
+
+		float4 _uFaceTex_ST;
+		float4 _uOutlineTex_ST;
+
+		pixel_t VertShader(vertex_t input)
+		{
+			pixel_t output;
+
+			//INITIALIZE_OUTPUT(pixel_t, output);
+			//SETUP_INSTANCE_ID(input);
+			//TRANSFER_INSTANCE_ID(input,output);
+
+			float bold = step(input.texcoord1.y, 0);
+
+			float4 vert = input.position;
+			vert.x += _uVertexOffsetX;
+			vert.y += _uVertexOffsetY;
+
+			float4 vPosition = mul(uMVPMatrix, vert);
+			float2 pixelSize = vPosition.w;
+			pixelSize /= float2(_uScaleX, _uScaleY) * abs(mul((float2x2)uPMatrix, uScreenParams.xy));
+			float scale = rsqrt(dot(pixelSize, pixelSize));
+			scale *= abs(input.texcoord1.y) * _uGradientScale * (_uSharpness + 1) ;
+			if (uPMatrix[3][3] == 0) scale = lerp(abs(scale) * (1 - _uPerspectiveFilter), scale, abs(dot(JnityObjectToWorldNormal(input.normal.xyz), normalize(WorldSpaceViewDir(vert)))));
+
+			float weight = lerp(_uWeightNormal, _uWeightBold, bold) / 4.0;
+			weight = (weight + _uFaceDilate) * _uScaleRatioA * 0.5;
+
+			float bias =(.5 - weight) + (.5 / scale);
+
+			float alphaClip = (1.0 - _uOutlineWidth * _uScaleRatioA - _uOutlineSoftness * _uScaleRatioA);
+
+		#if GLOW_ON
+			alphaClip = min(alphaClip, 1.0 - _uGlowOffset * _uScaleRatioB - _uGlowOuter * _uScaleRatioB);
+		#endif
+
+			alphaClip = alphaClip / 2.0 - ( .5 / scale) - weight;
+
+		#if (UNDERLAY_ON || UNDERLAY_INNER)
+			float4 underlayColor = _uUnderlayColor;
+			underlayColor.rgb *= underlayColor.a;
+
+			float bScale = scale;
+			bScale /= 1 + ((_uUnderlaySoftness*_uScaleRatioC) * bScale);
+			float bBias = (0.5 - weight) * bScale - 0.5 - ((_uUnderlayDilate * _uScaleRatioC) * 0.5 * bScale);
+
+			float x = -(_uUnderlayOffsetX * _uScaleRatioC) * _uGradientScale / _uTextureWidth;
+			float y = -(_uUnderlayOffsetY * _uScaleRatioC) * _uGradientScale / _uTextureHeight;
+			float2 bOffset = float2(x, y);
+		#endif
+
+			// Generate UV for the Masking Texture
+			float4 clampedRect = clamp(gClipRect, -2e10, 2e10);
+			float2 maskUV = (vert.xy - clampedRect.xy) / (clampedRect.zw - clampedRect.xy);
+
+			// Support for texture tiling and offset
+			float2 textureUV = UnpackUV(input.texcoord1.x);
+			float2 faceUV = TRANSFORM_TEX(textureUV, _uFaceTex);
+			float2 outlineUV = TRANSFORM_TEX(textureUV, _uOutlineTex);
+
+
+			half4 worldpos = mul( uMMatrix, vert );
+			output.position = vPosition;
+			output.color = input.color;
+			output.atlas =	input.texcoord0;
+			output.param =	float4(alphaClip, scale, bias, weight);
+			output.mask = half4(worldpos.xy * 2 - clampedRect.xy - clampedRect.zw, 0.25 / (0.25 * half2(gUIMaskSoftnessX, gUIMaskSoftnessY) + pixelSize.xy));
+			output.viewDir =	mul((float3x3)gEnvMatrix, uWorldEyePos.xyz - mul(uMMatrix, vert).xyz);
+			#if (UNDERLAY_ON || UNDERLAY_INNER)
+			output.texcoord2 = float4(input.texcoord0 + bOffset, bScale, bBias);
+			output.underlayColor =	underlayColor;
+			#endif
+			output.textures = float4(faceUV, outlineUV);
+
+			return output;
+		}
+
+
+		fixed4 PixShader(pixel_t input) : SV_Target
+		{
+			//SETUP_INSTANCE_ID(input);
+
+			float c = tex2D(_uMainTex, input.atlas).a;
+
+		#ifndef UNDERLAY_ON
+			clip(c - input.param.x);
+		#endif
+
+			float	scale	= input.param.y;
+			float	bias	= input.param.z;
+			float	weight	= input.param.w;
+			float	sd = (bias - c) * scale;
+
+			float outline = (_uOutlineWidth * _uScaleRatioA) * scale;
+			float softness = (_uOutlineSoftness * _uScaleRatioA) * scale;
+
+			half4 faceColor = _uFaceColor;
+			half4 outlineColor = _uOutlineColor;
+
+			faceColor.rgb *= input.color.rgb;
+
+			faceColor *= tex2D(_uFaceTex, input.textures.xy + float2(_uFaceUVSpeedX, _uFaceUVSpeedY) * uTime.y);
+			outlineColor *= tex2D(_uOutlineTex, input.textures.zw + float2(_uOutlineUVSpeedX, _uOutlineUVSpeedY) * uTime.y);
+
+			faceColor = GetColor(sd, faceColor, outlineColor, outline, softness);
+
+		#if BEVEL_ON
+			float3 dxy = float3(0.5 / _uTextureWidth, 0.5 / _uTextureHeight, 0);
+			float3 n = GetSurfaceNormal(input.atlas, weight, dxy);
+
+			float3 bump = UnpackNormal(tex2D(_uBumpMap, input.textures.xy + float2(_uFaceUVSpeedX, _uFaceUVSpeedY) * uTime.y)).xyz;
+			bump *= lerp(_uBumpFace, _uBumpOutline, saturate(sd + outline * 0.5));
+			n = normalize(n- bump);
+
+			float3 light = normalize(float3(sin(_uLightAngle), cos(_uLightAngle), -1.0));
+
+			float3 col = GetSpecular(n, light);
+			faceColor.rgb += col*faceColor.a;
+			faceColor.rgb *= 1-(dot(n, light)*_uDiffuse);
+			faceColor.rgb *= lerp(_uAmbient, 1, n.z*n.z);
+
+			fixed4 reflcol = texCUBE(_uCube, reflect(input.viewDir, -n));
+			faceColor.rgb += reflcol.rgb * lerp(_uReflectFaceColor.rgb, _uReflectOutlineColor.rgb, saturate(sd + outline * 0.5)) * faceColor.a;
+		#endif
+
+		#if UNDERLAY_ON
+			float d = tex2D(_uMainTex, input.texcoord2.xy).a * input.texcoord2.z;
+			faceColor += input.underlayColor * saturate(d - input.texcoord2.w) * (1 - faceColor.a);
+		#endif
+
+		#if UNDERLAY_INNER
+			float d2 = tex2D(_uMainTex, input.texcoord2.xy).a * input.texcoord2.z;
+			faceColor += input.underlayColor * (1 - saturate(d2 - input.texcoord2.w)) * saturate(1 - sd) * (1 - faceColor.a);
+		#endif
+
+		#if GLOW_ON
+			float4 glowColor = GetGlowColor(sd, scale);
+			faceColor.rgb += glowColor.rgb * glowColor.a;
+		#endif
+
+		// Alternative implementation to UnityGet2DClipping with support for softness.
+		#if UI_CLIP_RECT
+			half2 m = saturate((gClipRect.zw - gClipRect.xy - abs(input.mask.xy)) * input.mask.zw);
+			faceColor *= m.x * m.y;
+		#endif
+
+		#if UI_ALPHACLIP
+			clip(faceColor.a - 0.001);
+		#endif
+
+  		return faceColor * input.color.a;
+		}
+
+		ENDCG
+	}
+}
+
+CustomEditor "DefaultTMP_SDF"
+}

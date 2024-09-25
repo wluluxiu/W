@@ -1,0 +1,75 @@
+{
+    "_uuid": "00000000-0000-0000-0000-7530c0722b90",
+    "_version": 1,
+    "_dir": false,
+    "ShaderImporter": {
+        "serializedVersion": 2,
+        "_name": "SpriteMaskFront",
+        "_localIdToName": [],
+        "_bundle": "00000000-0000-0000-1000-000000000000",
+        "_keywordsInfo": {
+            "serializedVersion": 2,
+            "customKeywords": [],
+            "builtinKeywords": [
+                {
+                    "key": "SKINNING",
+                    "type": 0
+                }
+            ],
+            "supportInstancing": false,
+            "useLightShadow": false,
+            "shaderFeatureKeywords": [],
+            "shaderFeatureVertSets": [
+                [
+                    []
+                ]
+            ],
+            "shaderFeatureFragSets": [
+                [
+                    []
+                ]
+            ],
+            "targetMCVertKeywords": [
+                [
+                    [
+                        "",
+                        "SKINNING"
+                    ]
+                ]
+            ],
+            "targetSFVertKeywords": [
+                [
+                    []
+                ]
+            ],
+            "targetMCFragKeywords": [
+                [
+                    []
+                ]
+            ],
+            "targetSFFragKeywords": [
+                [
+                    []
+                ]
+            ],
+            "acptSFGroup": [
+                [
+                    []
+                ]
+            ]
+        },
+        "_techVerInfo": {
+            "versions": [
+                {
+                    "p0": 0,
+                    "p1": 0
+                }
+            ]
+        },
+        "_variantsCnts": [
+            [
+                2
+            ]
+        ]
+    }
+}

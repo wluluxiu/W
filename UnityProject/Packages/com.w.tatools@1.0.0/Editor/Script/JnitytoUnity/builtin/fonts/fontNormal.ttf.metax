@@ -1,0 +1,24 @@
+{
+    "_uuid": "00000000-0000-0000-0000-75302c553038",
+    "_version": 1,
+    "_dir": false,
+    "FontImporter": {
+        "serializedVersion": 2,
+        "_name": "fontNormal",
+        "_localIdToName": [
+            {
+                "p0": 14000000,
+                "p1": "fontNormal"
+            }
+        ],
+        "_bundle": "00000000-0000-0000-1000-000000000000",
+        "_fontSize": 1,
+        "_forceTextureCase": -2,
+        "_fontName": "",
+        "_customCharacters": "",
+        "_fontRenderingMode": 0,
+        "_characterSpacing": 1,
+        "_characterPadding": 0,
+        "_fontResType": 0
+    }
+}

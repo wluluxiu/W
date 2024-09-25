@@ -1,0 +1,1208 @@
+{
+    "bundleInfo": {
+        "uuid": "00000000-0000-0000-1000-000000000000"
+    },
+    "uuidlist": [
+        {
+            "uuid": ":00000000-0000-0000-0000-753002ce6846",
+            "path": "builtin_ex/sprite/sprite_mask_visible_outside.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753002ce6846.asset",
+            "md5": "03b5a36dfd4e5a989534bb3f9d95f07f",
+            "depend": [
+                "00000000-0000-0000-0000-7530a608868b"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753004cebec3",
+            "path": "builtin/effects/default_2d_label_outline_rgb.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753004cebec3.asset",
+            "md5": "0b6f38e0ba9b8569e358f28096b29c73",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530052960d4",
+            "path": "builtin/materials/default_2d_label_outline_new.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530052960d4.asset",
+            "md5": "7e35e107c86f3d92f98adb13d65a5841",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530b2166e5f"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75300c44d5e6",
+            "path": "builtin/materials/default_3d_red.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75300c44d5e6.asset",
+            "md5": "491425b50f704a67aca996741e25b798",
+            "depend": [
+                "00000000-0000-0000-0000-75305d955b44"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75300dc873db",
+            "path": "builtin_ex/tmp/tmp_default_bitmap.fontasset",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75300dc873db.asset",
+            "md5": "1cd5ddbd5feb3aed46288f543873da3d",
+            "depend": [
+                "00000000-0000-0000-0000-75302c553038",
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530fe0f0797"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75300fd5f3a3",
+            "path": "builtin/materials/blit_copy.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75300fd5f3a3.asset",
+            "md5": "e80eeb366ddcc5ed9ad41bbc60c0f1ac",
+            "depend": [
+                "00000000-0000-0000-0000-753024f017a4",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753010bc5ad0",
+            "path": "builtin_ex/post_processing/depth_of_field.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753010bc5ad0.asset",
+            "md5": "753663c8fe477a00ed43cda4664e1c7e",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75301227f7d6",
+            "path": "builtin_ex/post_processing/motion_blur_mv.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75301227f7d6.asset",
+            "md5": "2783400354e2942bab7ec64907da71ca",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530130d08c0",
+            "path": "builtin/materials/default_2d_label_distancefield.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530130d08c0.asset",
+            "md5": "422c7dbde42d9acc6e19546c4571fba2",
+            "depend": [
+                "00000000-0000-0000-0000-7530947dac1b",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753013fca411",
+            "path": "builtin/image/defaultcubemaptex.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753013fca411.asset",
+            "md5": "0dcd466657cb6770391ccd8ac4ae7ea5",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530140d64ad",
+            "path": "builtin_ex/particle/blend_front.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530140d64ad.asset",
+            "md5": "a83a17b9f3cad179919fcd949d210c32",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753017836257",
+            "path": "builtin_ex/tmp/tmp_sprite.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753017836257.asset",
+            "md5": "12d551393d0dac277c6454ac1739c52d",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753017a32ddf",
+            "path": "builtin_ex/base/cube.fbx",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753017a32ddf.asset",
+            "md5": "97ac6ede6e4f33762833854c917c8034",
+            "depend": [
+                "00000000-0000-0000-0000-753082b0e705"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75301c1c37da",
+            "path": "builtin_ex/particle/default_particle.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75301c1c37da.asset",
+            "md5": "eb775dd61cbc7c68efeb39ad421f1388",
+            "depend": [
+                "00000000-0000-0000-0000-753045fd61b8",
+                "00000000-0000-0000-0000-7530afdb8427"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75301c79be13",
+            "path": "builtin/effects/label3d_bm_normal.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75301c79be13.asset",
+            "md5": "7ce78bdf0e9a913e3682e784c2124544",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75301d8fbdb2",
+            "path": "builtin/materials/default_2d_label.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75301d8fbdb2.asset",
+            "md5": "5625bf11728ab34fba2f29e85277f908",
+            "depend": [
+                "00000000-0000-0000-0000-7530915552b6",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75301dab6b6a",
+            "path": "builtin/image/soft.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75301dab6b6a.asset",
+            "md5": "0189d0b412f9c8e40152031c1ff38645",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753020355794",
+            "path": "builtin_ex/ui/ui_default.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753020355794.asset",
+            "md5": "58534ef126ee250896383690b3b4590d",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530e6ca510b"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753021591969",
+            "path": "builtin/effects/blit_copy_gamma.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753021591969.asset",
+            "md5": "6f64dd36672fbf10555ee0bfe3c9a145",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753021e1d9eb",
+            "path": "builtin_ex/sprite/sprite_mask_back.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753021e1d9eb.asset",
+            "md5": "89babdce6414a8408d3991ae545b590b",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530f6cef546"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753022f7565b",
+            "path": "builtin/materials/blit_copy_linear.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753022f7565b.asset",
+            "md5": "50b44ab3bfd55c14cba72d0047a54ad1",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530b07d7d01"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753024f017a4",
+            "path": "builtin/effects/blit_copy.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753024f017a4.asset",
+            "md5": "7a92dc163f1054fbfe5963305a597cbb",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302632ce2f",
+            "path": "builtin/materials/default_2d_spine_two_color_batch.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302632ce2f.asset",
+            "md5": "f3348389800e6cec000d2636b98b7268",
+            "depend": [
+                "00000000-0000-0000-0000-75302c2244af",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302728061c",
+            "path": "builtin_ex/ui/ui_inputfield_background.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302728061c.asset",
+            "md5": "c41813ea357134a334b25f84af0b4975",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302b3febd3",
+            "path": "builtin_ex/sprite/sprite_mask_front.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302b3febd3.asset",
+            "md5": "78ac00f4637f3337a13ba68fbf155ccd",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530c0722b90"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302c2244af",
+            "path": "builtin/effects/default_2d_spine_two_color_batch.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302c2244af.asset",
+            "md5": "52544cdca6c37db76e37e27c35af4f1c",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302c553038",
+            "path": "builtin/fonts/fontNormal.ttf",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302c553038.asset",
+            "md5": "17544183b635edeaa7b1ed9c72ec4c49",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302d1b7873",
+            "path": "builtin/effects/default_2d_draw_node.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302d1b7873.asset",
+            "md5": "2d3ed9250e74df9f295d40c065e94eb4",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302eef16cb",
+            "path": "builtin/materials/default_2d_draw_node.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302eef16cb.asset",
+            "md5": "6c9bf74037e65b5042ad353f7ba54f55",
+            "depend": [
+                "00000000-0000-0000-0000-75302d1b7873"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302f5b76e2",
+            "path": "builtin_ex/particle/blend_double.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302f5b76e2.asset",
+            "md5": "076625a2c6296a818a7cbac7a531a631",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75302fc5cefc",
+            "path": "builtin_ex/base/standard_font.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75302fc5cefc.asset",
+            "md5": "11e0b49287467378c5646885b3bdce50",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753031d5803b",
+            "path": "builtin/materials/default_2d_label_distancefield_glow.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753031d5803b.asset",
+            "md5": "932923b19c71b6aae93d9c56dbc0fc62",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530d9696b16"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75303266a5d1",
+            "path": "builtin_ex/base/quad.fbx",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75303266a5d1.asset",
+            "md5": "a914b5a284b5a81ded60063f7c4b19b6",
+            "depend": [
+                "00000000-0000-0000-0000-753082b0e705"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753033a742df",
+            "path": "builtin_ex/ui/ui_background.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753033a742df.asset",
+            "md5": "88e116997826eb56a92f99eb971b93a5",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753033c3093c",
+            "path": "builtin_ex/render_path/screen_space_shadows.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753033c3093c.asset",
+            "md5": "aa581ddbbf71756e87811c88963a4f9a",
+            "depend": [
+                "00000000-0000-0000-0000-7530574864fc"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530351f87db",
+            "path": "builtin/effects/label3d_ttf_normal.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530351f87db.asset",
+            "md5": "0839fbca9f86ec8a51784a2999e62596",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753037f1cee8",
+            "path": "builtin_ex/post_processing/lut_2d_baker.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753037f1cee8.asset",
+            "md5": "1c855f39bac49414c995ab2d7ad0433b",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75303ab4454b",
+            "path": "builtin_ex/ui/ui_spine_skeleton_graphic_default.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75303ab4454b.asset",
+            "md5": "7764b2cb913b2ae056df3beb2e38f2fd",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530412f174c",
+            "path": "builtin/effects/default_2d_label_distancefield_normal.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530412f174c.asset",
+            "md5": "3a0a58f931de7da831befce8e4349cdb",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753045fd61b8",
+            "path": "builtin/image/default_particle.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753045fd61b8.asset",
+            "md5": "96432f117728d806273e8b23599be04a",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75304a802cd7",
+            "path": "builtin_ex/base/standard.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75304a802cd7.asset",
+            "md5": "9e7f8d92e3862df8e08310b997c37c05",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75304aa30211",
+            "path": "builtin/effects/default_3d_camera_depth_clear.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75304aa30211.asset",
+            "md5": "e113fbfeefbd3ef456fe34b70c40a2c5",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75304d462148",
+            "path": "builtin/effects/default_3d_alpha_test.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75304d462148.asset",
+            "md5": "c73708e3613961274745d6e0203140a6",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75304d4a0392",
+            "path": "builtin/materials/default_2d_layer.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75304d4a0392.asset",
+            "md5": "b50ffd322e856e7634bea0d853174bae",
+            "depend": [
+                "00000000-0000-0000-0000-75307f8cc322",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75304d6b3ecf",
+            "path": "builtin/materials/default_3d_opaque.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75304d6b3ecf.asset",
+            "md5": "65d10fd279db26c4bf982730f8384bee",
+            "depend": [
+                "00000000-0000-0000-0000-75308c3cf095",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75304f279937",
+            "path": "builtin/effects/particle3d_multiply.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75304f279937.asset",
+            "md5": "94bc2a6de26657a231d3e5ae084de431",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753050779725",
+            "path": "builtin_ex/sprite/sprites_default.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753050779725.asset",
+            "md5": "f527a3084db67227863d2ca677bb67e9",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530574864fc",
+            "path": "builtin_ex/render_path/screen_space_shadows.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530574864fc.asset",
+            "md5": "f9adb084593c2567508fb128daf97b0d",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75305d558424",
+            "path": "builtin_ex/particle/add_double.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75305d558424.asset",
+            "md5": "fda49aabed1936404b46060dd050b2ed",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75305d955b44",
+            "path": "builtin/effects/default_3d_red.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75305d955b44.asset",
+            "md5": "25928f69ea6ea5449d33cea7723208ae",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753062352640",
+            "path": "builtin/materials/blit_copy_gamma.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753062352640.asset",
+            "md5": "5fbf0a9b16d3fc748c0297706830561b",
+            "depend": [
+                "00000000-0000-0000-0000-753021591969",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753062de2ebb",
+            "path": "builtin/materials/draw_node_new.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753062de2ebb.asset",
+            "md5": "8daf16112593a06ac71be3d55d915cdf",
+            "depend": [
+                "00000000-0000-0000-0000-7530c1e886d8"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306331bb80",
+            "path": "builtin_ex/spine/spine_skeleton.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306331bb80.asset",
+            "md5": "ee69400746a0bc7a0cea19d37b43eee8",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530fdc2ea20"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306483c095",
+            "path": "builtin_ex/render_path/shared_shadow_caster.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306483c095.asset",
+            "md5": "ef5d6621b38f5c0c390408bc16d39fce",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306491bd4c",
+            "path": "builtin_ex/post_processing/motion_blur.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306491bd4c.asset",
+            "md5": "0aac20bf51882310ead3df7c4ead4c17",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306740d71b",
+            "path": "builtin_ex/render_path/spot.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306740d71b.asset",
+            "md5": "6050c0bd5733c3d65f6e9ae47d4c04ed",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306b5e8ea3",
+            "path": "builtin_ex/sprite/sprites_default.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306b5e8ea3.asset",
+            "md5": "7310ff0932d3b488a2f7db77e3002efd",
+            "depend": [
+                "00000000-0000-0000-0000-753050779725",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306dd2d7c3",
+            "path": "builtin/effects/particle3d_additive.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306dd2d7c3.asset",
+            "md5": "5d6c6dbf4b95699770fff10beb098ce1",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306de2fdb8",
+            "path": "builtin_ex/render_path/shared_shadow_caster.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306de2fdb8.asset",
+            "md5": "28a26474944b9bd62cbeafb730bbcb1e",
+            "depend": [
+                "00000000-0000-0000-0000-75306483c095"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306e49c154",
+            "path": "builtin_ex/sprite/sprite_mask_inside.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306e49c154.asset",
+            "md5": "bcd48ef45da3485bda4bd83c2abfa8b7",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306eeb79a5",
+            "path": "builtin_ex/particle/add_front.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306eeb79a5.asset",
+            "md5": "1e302efd6becfe8194faebb59ff41690",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75306f50e842",
+            "path": "builtin_ex/post_processing/flare.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75306f50e842.asset",
+            "md5": "fa436b38d838f749d3fc7ef12096dfad",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753070b11372",
+            "path": "builtin_ex/spine/spine_skeleton_tint_black.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753070b11372.asset",
+            "md5": "560c151c40b531c5e67fd7a8cd94296c",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75307349b403",
+            "path": "builtin_ex/tmp/tmp_sprite.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75307349b403.asset",
+            "md5": "486b1c2f3a09aef786af711611abcb62",
+            "depend": [
+                "00000000-0000-0000-0000-753017836257",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753076ed9945",
+            "path": "builtin/effects/blit_premultiply_alpha.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753076ed9945.asset",
+            "md5": "45d2d86ff1be8925c88cc4e174db4475",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753078907b2a",
+            "path": "builtin_ex/ui/ui_knob.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753078907b2a.asset",
+            "md5": "fcabb9ba491e20f98a9d9a0ed8df9810",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75307d782237",
+            "path": "builtin_ex/post_processing/neutral_ldr_lut.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75307d782237.asset",
+            "md5": "091c77e88b24637fa50fe1e049893bd7",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75307f8cc322",
+            "path": "builtin/effects/default_2d_layer.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75307f8cc322.asset",
+            "md5": "f79502877b4fa486f12d58e5db8bf73f",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75307fe209ff",
+            "path": "builtin/effects/particle3d_alphablended.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75307fe209ff.asset",
+            "md5": "c5f45ebcae408a18dd127d434932fb4a",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753082b0e705",
+            "path": "builtin/materials/default_3d_opaque_lighting.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753082b0e705.asset",
+            "md5": "c88d14e3c22297d242a1131e4d030219",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530f3d03c10"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753083047673",
+            "path": "builtin/effects/default_3d_camera_skybox_clear.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753083047673.asset",
+            "md5": "dd0f7e65f37a675408e9a12693aa848d",
+            "depend": [
+                "00000000-0000-0000-0000-753013fca411"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753085d2dae4",
+            "path": "builtin/effects/particle3d_color_new.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753085d2dae4.asset",
+            "md5": "8086f254f4e99a7e304ce6760a68c2a6",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530864d5a39",
+            "path": "builtin/materials/default_2d_pos_tex_alpha_test.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530864d5a39.asset",
+            "md5": "5a90089bd3cf83af400b55574360942f",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530c670f44b"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753089b26df5",
+            "path": "builtin/materials/default_2d_gaussian_blur.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753089b26df5.asset",
+            "md5": "fdda1effcb3a50877267d1585ca8a712",
+            "depend": [
+                "00000000-0000-0000-0000-753096c9165e",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75308bd463f1",
+            "path": "builtin/effects/particle3d_additive_smooth.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75308bd463f1.asset",
+            "md5": "8da9f546ae7d7a4fcc41a18acf6b3690",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75308c1fc35e",
+            "path": "builtin_ex/tmp/tmp_sdf.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75308c1fc35e.asset",
+            "md5": "f02b6237a656396623f2dbe6db3e78fc",
+            "depend": [
+                "00000000-0000-0000-0000-753013fca411",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75308c3cf095",
+            "path": "builtin/effects/default_3d_opaque.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75308c3cf095.asset",
+            "md5": "773ba34757e26b3486b0361b14d3c14e",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75308d5f6f21",
+            "path": "builtin_ex/ui/ui_sprite.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75308d5f6f21.asset",
+            "md5": "efadca1ff8bc99f14a947aededaea3b3",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-75308ef62037",
+            "path": "builtin_ex/ui/ui_checkmark.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-75308ef62037.asset",
+            "md5": "8b7c742599e32b60bbc3ea3f18f2894c",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530915552b6",
+            "path": "builtin/effects/default_2d_label.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530915552b6.asset",
+            "md5": "e5633982e1b77ff12f147a11c6584404",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530947dac1b",
+            "path": "builtin/effects/default_2d_label_distancefield.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530947dac1b.asset",
+            "md5": "fe1044f933d5a106fcda86110b3af5d1",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-753096c9165e",
+            "path": "builtin/effects/default_2d_gaussian_blur.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-753096c9165e.asset",
+            "md5": "07ccf674b375da961258a0f4ed9baf59",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530988c4e5d",
+            "path": "builtin/effects/default_3d_opaque_two_sides.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530988c4e5d.asset",
+            "md5": "1c74fd0ff25864e5527c0da67ef0964c",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530a0f2bdaf",
+            "path": "builtin/materials/default_2d_sprite_batch.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530a0f2bdaf.asset",
+            "md5": "af43efc6f6238ef3119cea98ae42e214",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530c246bd7b"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530a59ca7d4",
+            "path": "builtin/image/default3dtex.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530a59ca7d4.asset",
+            "md5": "216d5230ab48f6c0e5f4824d3ade5976",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530a608868b",
+            "path": "builtin_ex/sprite/sprite_mask_outside.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530a608868b.asset",
+            "md5": "3fe4804bec5625a9bb2f7619e124c346",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530adeed167",
+            "path": "builtin/materials/blit_gamma.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530adeed167.asset",
+            "md5": "fd281de2346d8aa417bafe8c3741e1ed",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530dc4de9cf"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530afdb8427",
+            "path": "builtin_ex/particle/default_particle3d_additive.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530afdb8427.asset",
+            "md5": "e3be26e99ea09cab82454668cfa91c32",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530b07d7d01",
+            "path": "builtin/effects/blit_copy_linear.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530b07d7d01.asset",
+            "md5": "bfefe7ac8ed00e2e22b3d0c63967d942",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530b1d78e19",
+            "path": "builtin/effects/default_2d_label_outline.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530b1d78e19.asset",
+            "md5": "3269d0111c5dd63040f9f071d46342a5",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530b2166e5f",
+            "path": "builtin/effects/default_2d_label_outline_new.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530b2166e5f.asset",
+            "md5": "24e02ad430ddc5e0447512d7be8c7935",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530b3d03fba",
+            "path": "builtin/materials/default_2d_label_distancefield_glow_new.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530b3d03fba.asset",
+            "md5": "d8a21ed56455f14c8fb8ca49f70b661e",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530e0dacbc2"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530b3f5eadb",
+            "path": "builtin/materials/default_2d_label_outline_rgb.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530b3f5eadb.asset",
+            "md5": "94a97fd791e2b182ffef0ba3bbee75cb",
+            "depend": [
+                "00000000-0000-0000-0000-753004cebec3",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530b65b3dae",
+            "path": "builtin/materials/default_3d_particle_additive.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530b65b3dae.asset",
+            "md5": "f14ed6dcdb0ebd51bf81b352bcad88bc",
+            "depend": [
+                "00000000-0000-0000-0000-753045fd61b8",
+                "00000000-0000-0000-0000-75306dd2d7c3"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530b669fd5d",
+            "path": "builtin_ex/base/standard_font.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530b669fd5d.asset",
+            "md5": "1056141643c615137cf0daacef9fb42c",
+            "depend": [
+                "00000000-0000-0000-0000-75302fc5cefc",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530b7374833",
+            "path": "builtin_ex/spine/spine_skeleton_tint_black.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530b7374833.asset",
+            "md5": "7b1168d19802a55973f8c4f726f93d91",
+            "depend": [
+                "00000000-0000-0000-0000-753070b11372",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530c0722b90",
+            "path": "builtin_ex/sprite/sprite_mask_front.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530c0722b90.asset",
+            "md5": "c0ab24930b5bed117f8834aefc8958b6",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530c1e886d8",
+            "path": "builtin/effects/draw_node_new.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530c1e886d8.asset",
+            "md5": "bf77f96f88f434a442782c7e6b3559a1",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530c211de71",
+            "path": "builtin/effects/default_2d_label_normal.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530c211de71.asset",
+            "md5": "3010de63218539f50ab0cf864cfdf293",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530c246bd7b",
+            "path": "builtin/effects/default_2d_sprite_batch.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530c246bd7b.asset",
+            "md5": "b1b78f1be71b1b14314e2c78083fe30d",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530c5db6f1a",
+            "path": "builtin/effects/default_3d_transparent.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530c5db6f1a.asset",
+            "md5": "57f5641a87b57ddbe951ff9e90f6d47f",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530c670f44b",
+            "path": "builtin/effects/default_2d_pos_tex_alpha_test.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530c670f44b.asset",
+            "md5": "6df57c8ddd5a246d79d35012dd421344",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530c678c055",
+            "path": "builtin_ex/tmp/tmp_style_sheet.stylesheet",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530c678c055.asset",
+            "md5": "81174acde2e82b9ea8003c0a1747799e",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530c7c0d4d5",
+            "path": "builtin_ex/render_path/shared_depth_normals.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530c7c0d4d5.asset",
+            "md5": "99ca29737643eadf65c325424663bb79",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530cd09046f",
+            "path": "builtin_ex/base/sphere.fbx",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530cd09046f.asset",
+            "md5": "baaf9f97795122426b91b7494c00d1b2",
+            "depend": [
+                "00000000-0000-0000-0000-753082b0e705"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530d320e244",
+            "path": "builtin_ex/tmp/tmp_sdf.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530d320e244.asset",
+            "md5": "5de80cee357c37202d618317760097b4",
+            "depend": [
+                "00000000-0000-0000-0000-75308c1fc35e",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530d68bc6ec",
+            "path": "builtin/materials/blit.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530d68bc6ec.asset",
+            "md5": "dba57274f5b9e91b8c8210ba6613ad57",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530fb7fde25"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530d862ac31",
+            "path": "builtin/image/default_transparent.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530d862ac31.asset",
+            "md5": "673539d8019446115329b6194f6e21ab",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530d9696b16",
+            "path": "builtin/effects/default_2d_label_distancefield_glow.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530d9696b16.asset",
+            "md5": "fe2ada0fc3a8cc9e602b05f7ac3b2d6b",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530dc4de9cf",
+            "path": "builtin/effects/blit_gamma.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530dc4de9cf.asset",
+            "md5": "0ff66484de3e5d392810843e8f82de90",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530dcb42d39",
+            "path": "builtin_ex/ui/ui_spine_skeleton_graphic_default.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530dcb42d39.asset",
+            "md5": "af9a6e59e55f85f46ba5dd3133d6f210",
+            "depend": [
+                "00000000-0000-0000-0000-75303ab4454b",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530dcd05d94",
+            "path": "builtin/image/defaultcubemapblacktex.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530dcd05d94.asset",
+            "md5": "269dd74e50f692077c900e41d8759ee9",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530dda2517a",
+            "path": "builtin/materials/blit_linear.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530dda2517a.asset",
+            "md5": "c50943aacb12a2d0a6efef9c2ced0533",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530e2c9abf4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530e0379e2a",
+            "path": "builtin_ex/base/capsule.fbx",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530e0379e2a.asset",
+            "md5": "21d4dd8a4257db81ca2d1f96dc6aa59e",
+            "depend": [
+                "00000000-0000-0000-0000-753082b0e705"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530e0dacbc2",
+            "path": "builtin/effects/default_2d_label_distancefield_glow_new.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530e0dacbc2.asset",
+            "md5": "4f58550752855ef6a5c95ed236fa4e73",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530e16ecb4e",
+            "path": "builtin_ex/base/cylinder.fbx",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530e16ecb4e.asset",
+            "md5": "f630ac01ecacd4c8f90f730ed9bf0550",
+            "depend": [
+                "00000000-0000-0000-0000-753082b0e705"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530e2c9abf4",
+            "path": "builtin/effects/blit_linear.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530e2c9abf4.asset",
+            "md5": "be3bbb4919979111c2d794bfb72e0b51",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530e6393d6e",
+            "path": "builtin_ex/base/standard.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530e6393d6e.asset",
+            "md5": "c50f91840debfe1831d5a86f497bc9ce",
+            "depend": [
+                "00000000-0000-0000-0000-75304a802cd7",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530e6ca510b",
+            "path": "builtin_ex/ui/ui_default.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530e6ca510b.asset",
+            "md5": "ac296afeefbefc08ae203ab855e32e08",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530ef05bcef",
+            "path": "builtin/materials/default_2d_label_outline.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530ef05bcef.asset",
+            "md5": "f6b9961b2e66ac625418af7626568a83",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530b1d78e19"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530f1be69b5",
+            "path": "builtin_ex/sprite/sprite_mask_visible_inside.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530f1be69b5.asset",
+            "md5": "f689fb2aa280437c2b5bffb81354cf0a",
+            "depend": [
+                "00000000-0000-0000-0000-75306e49c154"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530f26d2449",
+            "path": "builtin_ex/post_processing/uber.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530f26d2449.asset",
+            "md5": "abb1d71baeaa1d0aa11c47e892a2d915",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530f3d03c10",
+            "path": "builtin/effects/default_3d_opaque_lighting.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530f3d03c10.asset",
+            "md5": "6648e596ca83aa1901be42aec4260441",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530f44c6bbd",
+            "path": "builtin_ex/ui/ui_mask.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530f44c6bbd.asset",
+            "md5": "724b5ee5b3b75b38e52e72c198f72d8d",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530f6cef546",
+            "path": "builtin_ex/sprite/sprite_mask_back.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530f6cef546.asset",
+            "md5": "622799ad96f2379ec000d7c6f9dfe9c7",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530f7d22540",
+            "path": "builtin_ex/post_processing/bloom.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530f7d22540.asset",
+            "md5": "6a3731f5c6f4f52d08b764cbffb0f2f9",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530f836cb53",
+            "path": "builtin_ex/ui/ui_dropdown_arrow.png",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530f836cb53.asset",
+            "md5": "a254e8cec3aefb1bd60f0ebc8c3db587",
+            "depend": []
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530f9ae8ebb",
+            "path": "builtin_ex/render_path/shared_depth_normals.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530f9ae8ebb.asset",
+            "md5": "8fcd50611d893d788a1028478cd046a7",
+            "depend": [
+                "00000000-0000-0000-0000-7530c7c0d4d5"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530fb7fde25",
+            "path": "builtin/effects/blit.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530fb7fde25.asset",
+            "md5": "6ad9cc7637db28b757ebdde60a036eca",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530fdc2ea20",
+            "path": "builtin_ex/spine/spine_skeleton.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530fdc2ea20.asset",
+            "md5": "3ad76e10c47a034c191c1a2a4f257681",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530fdec5f6c",
+            "path": "builtin/effects/particle3d_texture_new.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530fdec5f6c.asset",
+            "md5": "c757027061c7fb245be5b601ffa8456a",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530fe0f0797",
+            "path": "builtin_ex/tmp/tmp_bitmap.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530fe0f0797.asset",
+            "md5": "27892415bd56cf5c3f33161b720a0b92",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530fe1bd03c",
+            "path": "builtin/materials/blit_premultiply_alpha.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530fe1bd03c.asset",
+            "md5": "350f25855f8dbb91830089efd152e5ad",
+            "depend": [
+                "00000000-0000-0000-0000-753076ed9945",
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530feadcee5",
+            "path": "builtin_ex/tmp/tmp_bitmap.mat",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530feadcee5.asset",
+            "md5": "42f335da805b4961f49da44175a3e587",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4",
+                "00000000-0000-0000-0000-7530fe0f0797"
+            ]
+        },
+        {
+            "uuid": ":00000000-0000-0000-0000-7530ff700613",
+            "path": "builtin_ex/post_processing/final_pass.shader",
+            "library": "JlichtBuiltInResEx/00000000-0000-0000-0000-7530ff700613.asset",
+            "md5": "0e6bf9867cff8097737a84b7b37443a1",
+            "depend": [
+                "00000000-0000-0000-0000-7530a59ca7d4"
+            ]
+        }
+    ]
+}
