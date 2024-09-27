@@ -1,0 +1,19 @@
+{
+    "name": "Unity.AssetGraph.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.AssetGraph",
+        "jj.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
