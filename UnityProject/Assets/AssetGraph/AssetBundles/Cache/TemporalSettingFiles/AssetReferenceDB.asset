@@ -41277,4 +41277,8 @@ MonoBehaviour:
     m_importFrom: Packages/com.unity.profiling.systemmetrics.mali/Plugins/Linux
     m_exportTo: 
     m_variantName: 
+  - m_assetDatabaseId: 00000000000000006100000000000000
+    m_importFrom: ProjectSettings/GraphicsSettings.asset
+    m_exportTo: 
+    m_variantName: 
   m_version: 2
