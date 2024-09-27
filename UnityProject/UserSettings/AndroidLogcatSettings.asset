@@ -115,6 +115,13 @@
         "DisplayIdEnabled": false,
         "DisplayId": ""
     },
+    "m_ScreenCaptureSettings": {
+        "Mode": 0,
+        "m_LastSaveLocation": [
+            "D:\\WorkSpace\\GitHub\\W\\UnityProject",
+            "D:\\WorkSpace\\GitHub\\W\\UnityProject"
+        ]
+    },
     "m_InputSettings": {
         "ShiftModifier": false,
         "SendText": "",
