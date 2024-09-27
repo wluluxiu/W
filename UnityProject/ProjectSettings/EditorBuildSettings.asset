@@ -15,5 +15,8 @@ EditorBuildSettings:
     path: Assets/Samples/Unity Transport/2.2.1/Simple Client and Server/Scenes/SimpleClientServer.unity
     guid: 0906cbb2ca4d20e4c880d99410cea54f
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6b64b8ef0be7c4348be15c26e0186979, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: fe5d1bd037ad5ab47896be4b157f41c0, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 46fcd3fc15d4d6449bd1920468671f9e, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 3df7be49c8de4a44391443da8043d9b6, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 6b840baec27e3fc42ac96c1ac8c8e2e6, type: 2}
